@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.div {
+  background-color: black;
+  width: 450px;
+  height: 40vh;
+  margin: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.change {
+  background-color: grey;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 450px;
+  height: 40vh;
+  margin: 8px;
+}
